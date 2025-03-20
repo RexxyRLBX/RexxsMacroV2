@@ -1,6 +1,8 @@
 #Requires Autohotkey v2
 #SingleInstance force
 
+Run('C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe "' A_ScriptDir '\Assets\Macros\MacroStop.ahk"')
+
 if A_LineFile = A_ScriptFullPath && !A_IsCompiled
 {
 	myGui := Constructor()
