@@ -168,4 +168,5 @@ loop 3
         Send ("{e}")
         Sleep(50)
     }
-    Run('C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe "' IniDir '\Assets\Macros\CameraAllign.ahk"')
+    Run('C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe "' IniDir '\Assets\Macros\AutoEquip.ahk"')
+    Run('C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe "' IniDir '\Assets\Macros\MacroStop.ahk"')

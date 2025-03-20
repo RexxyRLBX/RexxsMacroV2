@@ -56,5 +56,6 @@ Send("{a up}")
 Sleep(300)
 
 Run('C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe "' IniDir '\Assets\Macros\PathInitialize.ahk"')
+Run('C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe "' IniDir '\Assets\Macros\MacroStop.ahk"')
 
 ExitApp()

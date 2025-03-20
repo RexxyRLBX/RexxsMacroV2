@@ -1,6 +1,7 @@
 #Requires AutoHotkey v2.0
 #SingleInstance force
 
+
 WinActivate("Roblox")
 Sleep(333)
 
@@ -52,17 +53,20 @@ if (color = targetColor) {
     MouseMove(1430, 300)
     MouseClick("Left")
     Run('C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe "' A_ScriptDir '\CameraAllign.ahk"')
+    Run('C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe "' IniDir '\Assets\Macros\MacroStop.ahk"')
     ExitApp()
 } else {
     MouseMove(1420, 300)
     MouseMove(1430, 300)
     MouseClick("Left")
     Run('C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe "' A_ScriptDir '\CameraAllign.ahk"')
+    Run('C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe "' IniDir '\Assets\Macros\MacroStop.ahk"')
     ExitApp()
 }
 
 
 } else {
     Run('C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe "' IniDir '\Assets\Macros\CameraAllign.ahk"')
+    Run('C:\Program Files\AutoHotkey\v2\AutoHotkey64.exe "' IniDir '\Assets\Macros\MacroStop.ahk"')
     ExitApp()
 }
