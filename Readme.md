@@ -12,9 +12,9 @@ YOU need to Support (so that the Macro Runs Smoothly):
 -Min 30 hz (ideally 60hz)
 -Max 500 Ping
 -Steady Frames
--1080p display 100% scale
-    (On 1440p 200% scale)
-    (On 4k 400% Scale)
+-1080p 100% scale
+-1440p 100% scale
+    (4K SOON)
 -QWERTZ Keyboard Setting
 
 Things to do to Pervent Macro from Glitching
