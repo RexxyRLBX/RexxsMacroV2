@@ -5,7 +5,7 @@ Dm Me for Personal Requests
 This Macro Currently Currently Supports: 
 -8 Item Spots
 -Auto Aura Equip
--86% accurate Camera Allignment
+-92% accurate Camera Allignment
 
 YOU need to Support (so that the Macro Runs Smoothly):
 
