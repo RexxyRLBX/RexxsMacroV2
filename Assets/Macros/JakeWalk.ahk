@@ -1,0 +1,22 @@
+#Requires AutoHotkey v2.0
+#SingleInstance force
+
+WinActivate("Roblox")
+Send("{d down}")
+Sleep(3300)
+Send("{d up}")
+Sleep(300)
+Send("{s down}")
+Sleep(4300)
+Send("{Space down}")
+Sleep(100)
+Send("{Space up}")
+Sleep(3600)
+Send("{s up}")
+Sleep(300)
+Send("{e}")
+Sleep(4000)
+MouseMove(600, 945)
+MouseMove(600, 950)
+Sleep(400)
+MouseClick("Left")
